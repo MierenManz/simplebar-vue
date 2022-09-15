@@ -4,7 +4,8 @@
   "description": "Vue component for SimpleBar",
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "rollup.config.js"
   ],
   "author": "Piers Olenski",
   "repository": {
@@ -17,6 +18,7 @@
   "homepage": "https://grsmto.github.io/simplebar/",
   "license": "MIT",
   "scripts": {
+    "build": "rollup -c",
     "test": "jest -c jest-unit.config.js",
     "version": "yarn build",
     "precommit": "lint-staged"
