@@ -20,7 +20,7 @@
   "scripts": {
     "test": "jest -c jest-unit.config.js",
     "version": "yarn build",
-    "precommit": "lint-staged",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "core-js": "^3.0.1",
