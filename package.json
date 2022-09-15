@@ -18,11 +18,9 @@
   "homepage": "https://grsmto.github.io/simplebar/",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c",
     "test": "jest -c jest-unit.config.js",
     "version": "yarn build",
     "precommit": "lint-staged",
-    "postinstall": "rollup"
   },
   "dependencies": {
     "core-js": "^3.0.1",
