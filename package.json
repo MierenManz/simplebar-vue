@@ -22,7 +22,7 @@
     "test": "jest -c jest-unit.config.js",
     "version": "yarn build",
     "precommit": "lint-staged",
-    "postinstall": "rollup -c ./rollup.config.js"
+    "postinstall": "ls"
   },
   "dependencies": {
     "core-js": "^3.0.1",
