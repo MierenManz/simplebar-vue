@@ -22,7 +22,7 @@
     "test": "jest -c jest-unit.config.js",
     "version": "yarn build",
     "precommit": "lint-staged",
-    "postinstall": "rollup -c"
+    "postinstall": "rollup -c ./node_modules/simplebar-vue/rollup.config.js"
   },
   "dependencies": {
     "core-js": "^3.0.1",
