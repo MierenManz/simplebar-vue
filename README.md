@@ -10,6 +10,9 @@
 </p>
 <br/>
 
+# THIS PACKAGE IS NOT MINE!!!
+It is copied from [Simplebar-vue](https://github.com/Grsmto/simplebar/tree/master/packages/simplebar-vue) and modified to work with vue 3.
+
 # SimplebarVue
 
 ### Installation
