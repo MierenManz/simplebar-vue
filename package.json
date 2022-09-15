@@ -12,7 +12,8 @@
     "build": "rollup -c",
     "test": "jest -c jest-unit.config.js",
     "version": "yarn build",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "postinstall": "rollup -c"
   },
   "dependencies": {
     "core-js": "^3.0.1",
