@@ -2,11 +2,6 @@
   "name": "simplebar-vue",
   "version": "1.6.9",
   "description": "Vue component for SimpleBar",
-  "files": [
-    "dist",
-    "README.md",
-    "rollup.config.js"
-  ],
   "author": "Piers Olenski",
   "repository": {
     "type": "git",
